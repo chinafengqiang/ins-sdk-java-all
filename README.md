@@ -1,2 +1,2 @@
 # ins-sdk-java-all
-inspiry相关apisdk
+inspiry相关api sdk
