@@ -24,7 +24,7 @@ Inspiry SDK for Java让您不用复杂编程即可访Inspiry开放平台开放�
 ```
 
 ## 快速使用
-以下这段代码示例向您展示了使用Inspiry SDK for Java调用一个API的3个主要步骤：
+以下这段代码示例向您展示了使用Inspiry SDK for Java调用一个API的4个主要步骤：
 1. 设置InsConfig调用参数,包括ServerUrl、AppKey、Secret。
 2. 创建DefaultInsClient实例并初始化。
 3. 创建API请求对象并设置Model参数。
