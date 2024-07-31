@@ -33,7 +33,7 @@ public class JsonConverter implements Converter {
                 return result;
             }
         }
-        return (T) new InsResponse(reqId,code,msg);
+        return JSON.parseObject(rsp, clazz);
     }
 
 
