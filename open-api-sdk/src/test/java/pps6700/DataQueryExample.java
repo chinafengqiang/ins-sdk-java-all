@@ -16,8 +16,8 @@ import org.junit.Test;
  */
 public class DataQueryExample {
     private static final String ServerUrl = "https://api.inspay.jp";
-    private static final String AppKey = "AREAqEQlirueuFMN";
-    private static final String Secret = "INvaa3ntjotjcUfJNRe5Nx9qQcC7M6k4";
+    private static final String AppKey = "";
+    private static final String Secret = "";
     private InsConfig config;
     private InsClient insClient;
     @Before

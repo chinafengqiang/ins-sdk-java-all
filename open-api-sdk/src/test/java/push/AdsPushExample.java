@@ -33,8 +33,8 @@ import java.util.List;
  */
 public class AdsPushExample {
     private static final String ServerUrl = "https://api.inspay.jp";
-    private static final String AppKey = "5DdSACvDJgB1sbVu";
-    private static final String Secret = "8xBxtQCybkwI4flzT9errEx5RAzleWje";
+    private static final String AppKey = "";
+    private static final String Secret = "";
     private InsConfig config;
     private InsClient insClient;
     @Before
@@ -68,8 +68,7 @@ public class AdsPushExample {
 
         List<String> serialNums = new ArrayList<>();
         //serialNums.add("4330220100100393");
-        //serialNums.add("4330220900100063");
-        serialNums.add("4330220900100049");
+
         adsPushModel.setSerialNums(serialNums);
 
         adsPushRequest.setBizModel(adsPushModel);
