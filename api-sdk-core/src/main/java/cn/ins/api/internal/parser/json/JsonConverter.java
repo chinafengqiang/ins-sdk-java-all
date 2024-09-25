@@ -27,7 +27,7 @@ public class JsonConverter implements Converter {
 
         if(code != null &&  code == InsConstants.API_RESULT_SUCCESS){
             String data = jsonObject.getString(InsConstants.API_RESULT_DATA);
-            if(StringUtils.areNotEmpty(data)){
+            if(StringUtils.areNotEmpty(data) && !"SUCCESS".equals(data)){
                 T result = JSON.parseObject(data, clazz);
                 setResult(result,code,msg,reqId);
                 return result;

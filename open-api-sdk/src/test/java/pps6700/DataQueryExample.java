@@ -15,9 +15,9 @@ import org.junit.Test;
  * @date 2024/6/11 10:00
  */
 public class DataQueryExample {
-    private static final String ServerUrl = "https://xxx.xxx.xx";
-    private static final String AppKey = "xxx";
-    private static final String Secret = "xxx";
+    private static final String ServerUrl = "https://api.inspay.jp";
+    private static final String AppKey = "AREAqEQlirueuFMN";
+    private static final String Secret = "INvaa3ntjotjcUfJNRe5Nx9qQcC7M6k4";
     private InsConfig config;
     private InsClient insClient;
     @Before
@@ -29,8 +29,8 @@ public class DataQueryExample {
     private InsRequest<DataQueryResponse> createRequest() {
         DataQueryRequest request = new DataQueryRequest();
         DataQueryModel model = new DataQueryModel();
-        model.setStartTime("2024-06-05 00:00:00");
-        model.setEndTime("2024-06-05 23:57:00");
+        model.setStartTime("2024-07-10 00:00:00");
+        model.setEndTime("2024-07-10 23:57:00");
         model.setPageIndex(1);
         model.setPageSize(10);
         request.setBizModel(model);
