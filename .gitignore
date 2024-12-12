@@ -1,1 +1,3 @@
 /open-api-sdk/src/test/
+.gitignore
+.idea
