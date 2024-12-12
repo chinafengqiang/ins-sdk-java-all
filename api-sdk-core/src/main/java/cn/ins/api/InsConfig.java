@@ -43,8 +43,6 @@ public class InsConfig {
      */
     private String signMethod = InsConstants.SIGN_TYPE_HMACSHA1_KEY;
 
-
-
     /**
      * 连接超时，单位：毫秒
      */
