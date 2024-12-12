@@ -2,7 +2,6 @@ package cn.ins.api;
 
 import cn.ins.api.exception.InsApiException;
 import cn.ins.api.internal.http.AbstractHttpClient;
-import cn.ins.api.internal.http.HttpClientUtil;
 import cn.ins.api.internal.parser.json.ObjectJsonParser;
 import cn.ins.api.internal.util.*;
 import cn.ins.api.internal.sign.InsSignature;
