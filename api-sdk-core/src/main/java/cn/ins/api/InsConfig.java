@@ -85,12 +85,20 @@ public class InsConfig {
      */
     private AbstractHttpClient customizedHttpClient;
 
+    //有些api需要token
+    private String token;
+
     public InsConfig(){}
 
     public InsConfig(String serverUrl, String appKey, String secret) {
+        this(serverUrl,appKey,secret,"");
+    }
+
+    public InsConfig(String serverUrl, String appKey, String secret,String token) {
         this.serverUrl = serverUrl;
         this.appKey = appKey;
         this.secret = secret;
+        this.token = token;
     }
 
     public String getServerUrl() {
@@ -205,4 +213,11 @@ public class InsConfig {
         this.customizedHttpClient = customizedHttpClient;
     }
 
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
 }

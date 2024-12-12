@@ -42,12 +42,17 @@ public abstract class AbstractInsClient implements InsClient{
     }
 
     public AbstractInsClient(String serverUrl, String appKey, String signMethod, String charset,int connectTimeout,int readTimeout) {
+       this(serverUrl,appKey,signMethod,charset,connectTimeout,readTimeout,"");
+    }
+
+    public AbstractInsClient(String serverUrl, String appKey, String signMethod, String charset, int connectTimeout, int readTimeout, String token) {
         this.serverUrl = serverUrl;
         this.appKey = appKey;
         this.signMethod = signMethod;
         this.charset = charset;
         this.connectTimeout = connectTimeout;
         this.readTimeout = readTimeout;
+        this.token = token;
     }
 
     @Override

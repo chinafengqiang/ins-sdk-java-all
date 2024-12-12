@@ -30,7 +30,7 @@ public class DefaultInsClient extends AbstractInsClient{
 
     public DefaultInsClient(InsConfig config){
         super(config.getServerUrl(),config.getAppKey(),config.getSignMethod(),config.getCharset()
-        ,config.getConnectTimeout(),config.getReadTimeout());
+        ,config.getConnectTimeout(),config.getReadTimeout(),config.getToken());
         this.secret = config.getSecret();
         this.signer = new DefaultSigner(secret);
         setHttpClient(config);
