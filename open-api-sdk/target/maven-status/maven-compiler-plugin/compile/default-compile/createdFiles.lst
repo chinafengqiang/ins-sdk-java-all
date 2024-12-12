@@ -1,0 +1,5 @@
+cn/inspiry/api/service/pps6700/response/DataQueryResponse.class
+cn/inspiry/api/service/pps6700/domain/DataResModel.class
+cn/inspiry/api/service/pps6700/domain/DataQueryModel.class
+cn/inspiry/api/service/pps6700/request/DataQueryRequest.class
+cn/inspiry/api/service/pps6700/domain/SalesModel.class
