@@ -94,10 +94,12 @@ public class Main {
 
 ## 相关
 
-* [Inspiry开放平台文档中心](https://)
+* [开放平台文档中心](https://)
 
 
 ## 许可证
 [Apache License ](http://www.apache.org/licenses/)
 
 
+## 贡献
+我们欢迎并感谢社区的贡献。如果您有兴趣参与贡献，请查看[贡献指南](CONTRIBUTING.md)。
