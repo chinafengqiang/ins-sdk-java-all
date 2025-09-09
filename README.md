@@ -100,6 +100,3 @@ public class Main {
 ## 许可证
 [Apache License ](http://www.apache.org/licenses/)
 
-
-## 贡献
-我们欢迎并感谢社区的贡献。
