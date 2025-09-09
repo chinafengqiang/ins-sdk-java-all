@@ -8,7 +8,7 @@ SDK for Java让您不用复杂编程即可访开放平台开放的各项能力�
 ## 环境要求
 1.  SDK for Java 需要配合`JKD 1.5`或其以上版本。
 
-2. 使用 Inspiry SDK for Java 之前 ，您需要先获取AppKey、Secret等。
+2. 使用SDK for Java 之前 ，您需要先获取AppKey、Secret等。
 
 3. 准备工作完成后，注意保存AppKey、Secret等信息，后续将作为使用SDK的输入。
 
