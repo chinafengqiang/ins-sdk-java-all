@@ -87,7 +87,7 @@ public class Main {
 
 
 ## 问题
-如果您在使用 Inspiry SDK for Java 的过程中遇到任何问题，欢迎在当前 GitHub [提交 Issues](https://github.com/chinafengqiang/ins-sdk-java-all/issues/new)。
+如果您在使用 SDK for Java 的过程中遇到任何问题，欢迎在当前 GitHub [提交 Issues](https://github.com/chinafengqiang/ins-sdk-java-all/issues/new)。
 
 ## 变更日志
 每个版本的详细更改记录在[变更日志](./CHANGELOG)中。
